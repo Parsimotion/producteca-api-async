@@ -6,7 +6,7 @@
     "url": "git://github.com/Parsimotion/producteca-api-async.git"
   },
   "version": "0.0.1",
-  "main": ".build/main.js",
+  "main": "main.js",
   "dependencies": {
     "azure-storage": "^0.4.2",
     "lodash": "^3.6.0"
