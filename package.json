@@ -1,0 +1,22 @@
+{
+  "name": "producteca-api-async",
+  "description": "Producteca -async- API",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Parsimotion/producteca-api-async.git"
+  },
+  "version": "0.0.1",
+  "main": ".build/main.js",
+  "dependencies": {
+    "azure-storage": "^0.4.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
