@@ -10,8 +10,11 @@ module.exports = =>
       data = ""
       request.on "data", (chunk) => data += chunk
       request.on "end", =>
-        req = _.pick(request, ["method", "url", "headers"])
-        req.body = data
+        req =
+          method: request.method
+          resource: request.url
+          headers: request.headers
+          body: data
 
         controller req, response
     .listen port
