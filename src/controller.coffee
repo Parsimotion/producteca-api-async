@@ -17,3 +17,4 @@ module.exports = (request, response) =>
   #---
 
   enqueue request
+  end()
