@@ -6,7 +6,7 @@ module.exports = (request, response) =>
   azure.createQueueService process.env.STORAGE_NAME, process.env.STORAGE_KEY
   
   enqueue = (message) =>
-    queue.createMessage process.env.QUEUE_KEY, JSON.stringify(message), =>
+    queue.createMessage process.env.QUEUE_NAME, JSON.stringify(message), =>
   
   end = =>
     response.writeHead 200, { "Content-Type": "text/plain" }
