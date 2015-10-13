@@ -9,8 +9,9 @@
   "main": "main.js",
   "dependencies": {
     "coffee-script": "^1.8.0",
-    "azure-storage": "^0.4.2",
-    "lodash": "^3.6.0"
+    "lodash": "^3.6.0",
+    "azure-storage": "~0.6.0",
+    "bluebird": "~2.10.1"
   },
   "engines": {
     "node": ">=0.10.0"
